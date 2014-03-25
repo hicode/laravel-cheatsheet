@@ -9,8 +9,8 @@
     font-style: normal;
 }
 
-body {background: #333; margin-bottom: 40px; margin-top: 40px; font-size: 16px; font-family: 'Ubuntu Mono', monospace;}
-h1,h2,h3,h4,h5,h6 {font-family: 'UbuntuMono', monospace; }
+body {background: #333; margin-bottom: 40px; margin-top: 40px; font-size: 16px; font-family: 'Ubuntu', "Consolas", monospace;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Ubuntu', "Consolas", monospace; font-weight: normal}
 .top-bar {background: #333;box-shadow: 0px 1px 2px #fff; margin-bottom: 0;}
 .top-bar-section li a:not(.button) { background: #333; }
 .top-bar-section li a:not(.button):hover { color: #ddd; }
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'UbuntuMono', monospace; }
 /**
  * This prettyprint code is shamelessly stolen from the one and only @daylerees http://laravel.com/css/style.css
  */
- pre{font-family: "Ubuntu Mono", monospace;background-color:#333;padding:5px;font-size:90%;color:#e9e4e5;line-height:1.5em;margin:0.2em 0;border: 0;white-space:pre-wrap;} 
+ pre{font-family: "Consolas";background-color:#333;padding:5px;font-size:90%;color:#e9e4e5;line-height:1.5em;margin:0.2em 0;border: 0;white-space:pre-wrap;} 
  pre .pln{color:#e9e4e5;}
  pre .str{color:#bcd42a;}
  pre .kwd{color:#4bb1b1;}
